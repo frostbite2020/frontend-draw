@@ -7,7 +7,7 @@ import "./style.css";
 const Board = ({ color, size }) => {
   let timeout;
 
-  let socket = io.connect("https://phenomenal-jelly-a75248.netlify.app/");
+  let socket = io.connect("https://canvas-draw.herokuapp.com/");
 
   let ctx;
   let isDrawing = false;
